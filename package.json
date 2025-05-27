@@ -1,0 +1,34 @@
+{
+  "name": "djson",
+  "displayName": "djson",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "djson",
+        "aliases": [
+          "DJSON",
+          "djson"
+        ],
+        "extensions": [
+          ".djson"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "djson",
+        "scopeName": "source.djson",
+        "path": "./syntaxes/djson.tmLanguage.json"
+      }
+    ]
+  }
+}
